@@ -1,0 +1,88 @@
+/* Components */
+@import url("components/buttons.css");
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400&family=Pacifico&display=swap');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Lato;
+  background-color: rgb(220,220,220);
+}
+
+h1, h3, h4 {
+  font-family: 'Pacifico', cursive;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+
+.banner {
+  background: linear-gradient(180deg, rgba(255,255,255,0.1) 0%, rgba(0,0,0,0.7) 44%, rgba(255,255,255,0.6) 100%), url("https://source.unsplash.com/random/1000x500");
+  background-size: cover;
+  background-position: center;
+  padding: 85px 0px;
+}
+
+.banner h1, .banner p {
+  color: white;
+}
+
+.container {
+  margin: auto;
+  text-align: center;
+  width: 1000px;
+}
+
+.logo {
+  transform: rotate(180deg);
+  width: 50px;
+  color: gray;
+}
+
+.cards {
+  padding: 100px 0px;
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.card {
+  width: 250px;
+  background-color: white;
+  padding: 20px 20px 5px 20px;
+  box-shadow: 2px 2px 10px gray;
+}
+
+.card img {
+  height: 150px;
+}
+
+.footer {
+  text-align: center;
+  background-color: black;
+  color: rgb(255, 0, 200);
+  font-size: 32px;
+  padding: 15px 0;
+}
+
+.footer p {
+
+  font-size: 10px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.list-inline {
+  padding: 0px;
+}

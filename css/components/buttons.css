@@ -1,0 +1,13 @@
+.btn-yours {
+  font-family: 'Pacifico', cursive;
+  background-color: gray;
+  color: white;
+  border-radius: 20px;
+  padding: 5px 20px;
+}
+
+.btn-yours:hover {
+  background: linear-gradient(266deg, rgba(0,16,255,1) 0%, rgba(255,0,187,1) 15%, rgba(255,0,0,1) 33%, rgba(24,255,0,1) 79%);
+  color: white;
+  box-shadow: 5px 5px 10px 1px black;
+}
